@@ -19,7 +19,7 @@ app.post("/api/accepted", async (req, res) => {
   try {
     const { data, error } = await resend.emails.send({
       from: "onboarding@resend.dev",
-      to: "famuyiwaemmanuel565@gmail.com",
+      to: "emmy010906@gmail.com",
       subject: "SHE SAID YES! 💍💖",
       html: "<h1>CONGRATULATIONS! 🥳</h1><p>She accepted the proposal. Time to celebrate and buy ring!</p>",
     });
