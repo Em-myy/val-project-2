@@ -4,26 +4,26 @@ import axios from "axios";
 import confetti from "canvas-confetti";
 
 const TextArray: string[] = [
-  "Please na 🥺",
-  "Why you doing this? 😭",
-  "Oya i am sorry 💔",
-  "I beg you in the name of God 🙏",
-  "I will break your head oo 😡",
-  "My chest is paining me 🏥",
-  "Don't let the devil use you 👿",
-  "Is it because I don't have Benz? 🚗",
-  "I will report you to your mummy! 📞",
-  "God is watching you oo 👀",
-  "Even if it is pity, just pity me 😞",
-  "I have already bought the gift... 🎁",
-  "How dare you reject me, You have mind oo? 🤨",
-  "Just say Yes let everybody rest 😴",
-  "You are breaking a innocent heart 🩸",
-  "I will cry blood oo 🩸",
-  "Okay, take my ATM card then 💳",
-  "Last chance or I faint now 😵",
-  "Why are you so wicked? 😈",
-  "Fine face, wicked heart 💔",
+  "Please na, my lawful wedded... 💍",
+  "We already signed the papers, no escape! 🔒",
+  "Remember 'For Better For Worse'? 📜",
+  "Oya stop playing, food is ready 🍲",
+  "I will report you to our Pastor oo! ⛪",
+  "Is it because I didn't buy bread? 🍞",
+  "You want to divorce? In this economy? 😂",
+  "Think about the children (future or present)! 👶",
+  "I will call your Mummy now now! 📞",
+  "God is watching this wickedness 👀",
+  "No Valentine? No 'other room' tonight 🛌",
+  "I will change the Netflix password 📺",
+  "Don't let the devil use you, Sweetheart 👿",
+  "You signed the contract, Madam! 📝",
+  "I will break your head with love oo 🔨",
+  "Okay, take my full salary then 💰",
+  "Are you seeing someone else in your dream? 🤨",
+  "Just say Yes let us go and sleep 😴",
+  "Till death do us part, remember? 💀",
+  "You are stuck with me forever! ❤️",
 ];
 
 const TextColors: string[] = [
@@ -122,10 +122,10 @@ function App() {
 
     setButtonDisable(true);
 
-    setMsg("YAY! See you on the 14th! 💖");
+    setMsg("Forever & Always, My Love! ❤️💍");
     setMsgColor("text-red-500");
 
-    setBearEmoji("🧸🎊"); // Teddy bear with confetti
+    setBearEmoji("🧸👩‍❤️‍💋‍👨🧸");
     setBearAnim("teddy-celebrate");
 
     try {
